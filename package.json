@@ -1,0 +1,46 @@
+{
+  "scripts": {
+    "watch": "parcel watch src/*.jsx src/*.html src/*.scss -p 4321 --public-url ./",
+    "build": "parcel build src/*.jsx src/*.html src/*.scss --public-url ./",
+    "format": "prettier --write  src/**/*.jsx"
+  },
+  "targets": {
+    "default": {
+      "engines": {
+        "browsers": "> 0.25%"
+      },
+      "distDir": "assets",
+      "sourceMap": true
+    }
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.1",
+    "@mui/styles": "^5.2.3",
+    "@parcel/transformer-react-refresh-wrap": "^2.0.1",
+    "axios": "^0.24.0",
+    "create-react-app": "^4.0.3",
+    "font-awesome": "^4.7.0",
+    "merge-descriptors": "^1.0.1",
+    "react": "^17.0.2",
+    "react-cookie-consent": "^7.0.1",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "^17.0.2",
+    "react-google-recaptcha-v3": "^1.9.7",
+    "react-trello": "^2.2.11",
+    "underscore": "^1.13.2",
+    "validator": "^13.7.0"
+  },
+  "name": "Idea-feedback-system",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
